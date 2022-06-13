@@ -1,9 +1,9 @@
 package org.example.verifications;
 
 import org.example.models.Vehicle;
+import org.example.pages.VehiclePage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import org.example.pages.VehiclePage;
 
 public class VehiclePageVerification extends BaseVerification {
 
