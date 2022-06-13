@@ -1,13 +1,16 @@
 package org.example;
 
 import com.google.inject.Inject;
+import org.example.configuration.ConfigurationModule;
 import org.example.models.Vehicle;
 import org.example.services.VehiclePageService;
 import org.example.utils.WebDriverProvider;
 import org.example.verifications.VehiclePageVerification;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Guice;
 
+@Guice(modules = ConfigurationModule.class)
 public class BaseTest {
 
     @Inject

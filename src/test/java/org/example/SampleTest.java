@@ -1,12 +1,9 @@
 package org.example;
 
-import org.example.configuration.ConfigurationModule;
 import org.example.models.Vehicle;
 import org.example.utils.VehicleUtil;
-import org.testng.annotations.Guice;
 import org.testng.annotations.Test;
 
-@Guice(modules = ConfigurationModule.class)
 public class SampleTest extends BaseTest {
 
     @Test

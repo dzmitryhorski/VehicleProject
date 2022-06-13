@@ -71,10 +71,10 @@ public class Vehicle {
     @Override
     public String toString() {
         return "Vehicle {" +
-                "name ='" + name + '\'' +
-                ", model ='" + model + '\'' +
-                ", year =" + year +
-                ", color ='" + color + '\'' +
+                "name='" + name + '\'' +
+                ", model='" + model + '\'' +
+                ", year='" + year + '\'' +
+                ", color='" + color + '\'' +
                 '}';
     }
 }
